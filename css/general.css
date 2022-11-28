@@ -1,6 +1,6 @@
 /* Side nav bar*/
 .barButton {
-    margin: 0px;
+    margin-left: 5px;
     margin-top: 0px;
     white-space:normal;
     width: 95%;
@@ -54,4 +54,8 @@
 .border-radius50 {
     border-radius: 50%;
     border-color: #fff;
+}
+
+.margin-top10 {
+    margin-top: 20px;
 }
