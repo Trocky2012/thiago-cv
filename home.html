@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Home - Thiago CV</title>
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="icon" type="image/x-icon" href="/img/personal/favicon.ico">
+    </head>
+
+    <body onload=introduction()>
+
+        <div class="topnav">
+            <a class="active" href="home.html">Home</a>
+            <a href="experiences.html">Experiences</a>
+            <a href="projects.html">Projects</a>
+            <a href="index.html">Credentials</a>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-light-sand w3-bar-block" style="width:22%">
+            <img src='img/personal/thiago.jpeg' alt='thiago_photo' style="width:70%" class="center border-radius50 margin-top20">
+            <!--<h3 class="w3-bar-item">Menu:</h3>-->
+            <p></p>
+            <p><button class="barButton" onclick=home_introduction()>> Introduction</button></p>
+            <p><button class="barButton" onclick=home_experiences()>> Experiences</button></p>
+            <p><button class="barButton" onclick=home_projects()>> Projects</button></p>
+        </div>
+
+        <!-- Page -->
+        <div style="margin-left:22%">
+
+            <div class="w3-container w3-teal" >
+                <h1>Home - Thiago CV</h1>
+            </div>
+            
+            
+            <div class="w3-container">
+                
+                <h2 style="margin-top: 14%; font-size: xx-large; font-family: Impact; color: #257886;" id="title">Home</h2>
+                <p id="text1">Opt: Home page</p>
+                <table id="messages" style="width: 85%"></table>
+            </div>
+
+        </div>
+
+        <script src="js/content-functions.js"></script>
+        
+    </body>
+</html>

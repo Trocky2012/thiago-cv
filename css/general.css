@@ -1,4 +1,22 @@
 /* Side nav bar*/
+.entryButton {
+    margin-left: 0px;
+    margin-top: 0px;
+    white-space:normal;
+    width: 15%;
+    background-color: #257886;
+    border-radius: 16px;
+    border-color: #257786ad;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 10px; 
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
 .barButton {
     margin-left: 5px;
     margin-top: 0px;
@@ -51,11 +69,33 @@
     margin-top: 10px;
 }
 
+.entry-page {
+    margin: auto;
+    position: relative;
+    background-color: #333;
+    color: white;
+
+    position: relative;
+    border: 2px solid #257886;
+
+    width: 100%;
+    height: 100%;
+}
+.middle {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
 .border-radius50 {
     border-radius: 50%;
     border-color: #fff;
 }
 
-.margin-top10 {
+.margin-top20 {
     margin-top: 20px;
 }
+
