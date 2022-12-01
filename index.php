@@ -31,9 +31,14 @@
                 <h1>Home - Thiago CV</h1>
             </div>
             
+            
             <div class="w3-container">
+                
                 <h2 style="margin-top: 14%; font-size: xx-large; font-family: Impact; color: #257886;" id="title">Home</h2>
                 <p id="text1">Opt: Home page</p>
+                <?php
+                    echo "My first PHP text!";
+                ?>
                 <table id="messages" style="width: 85%"></table>
             </div>
 
