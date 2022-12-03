@@ -6,13 +6,13 @@
         
     </head>
 
-    <body onload=introduction()>
+    <body onload=projects_introduction()>
 
         <div class="topnav">
             <a href="home.html">Home</a>
             <a href="experiences.html">Experiences</a>
             <a class="active" href="projects.html">Projects</a>
-            <a href="index.html">Credentials</a>
+            <a href="index.html">Credentials - Cover page</a>
         </div>
 
         <!-- Sidebar -->
@@ -20,9 +20,12 @@
             <img src='img/personal/thiago.jpeg' alt='thiago_photo' style="width:70%" class="center border-radius50 margin-top10">
             <!--<h3 class="w3-bar-item">Menu:</h3>-->
             <p></p>
-            <p><button class="barButton" onclick=introduction()>> Introduction</button></p>
-            <p><button class="barButton" onclick=experiences()>> PIX</button></p>
-            <p><button class="barButton" onclick=projects()>> OLA Taks</button></p>
+            <p><button class="barButton" onclick=projects_introduction()>> Introduction</button></p>
+            <p><button class="barButton" onclick=projects_timing_control()>> Timing Control</button></p>
+            <p><button class="barButton" onclick=projects_asm_manager()>> ASM Manager</button></p>
+            <p><button class="barButton" onclick=projects_ola_task()>> OLA Taks</button></p>
+            <!--<p><button class="barButton" onclick=projects_pix()>> PIX</button></p>-->
+            <p><button class="barButton" onclick=projects_ubm_stareng()>> UBM Stareng</button></p>
         </div>
 
         <!-- Page -->
@@ -40,7 +43,7 @@
 
         </div>
 
-        <script src="js/content-functions.js"></script>
+        <script src="js/content-functions-projects.js"></script>
         
     </body>
 </html>
