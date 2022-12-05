@@ -29,21 +29,40 @@ function addInList(degree, school, course, start, end){
 function home_introduction(){
     document.getElementById("title").innerHTML = "Introduction"; 
     document.getElementById("text1").innerHTML = "<b>Thiago Trolle Cavalheiro - Software developer.</b><br><br>"
-    +"&nbsp &nbsp As a programmer with over 5 years of experience, I believe that my strong technical experience and education makes me a experienced software developer and ready for new challenges.<br><br>"
+    +"&nbsp &nbsp As a multi language programmer with over 6 years of experience, I believe that my strong technical experience and education makes me ready for new challenges in my life.<br><br>"
     +"&nbsp &nbsp I am a 30 year old Software Developer / Engineer with a broad range of technical skills. My B.S in Automation and Control Engineering and experiences have made me a professional with a strong background in different  areas such as programming, software development and data analysis.<br><br>"
-    +"&nbsp &nbsp The knowledge I've obtained with my diploma and B.S as well as my previous jobs have prepared me for this position. My experiences always involved a great deal of independent research, self-management, requiring initiative, self-motivation and logical approach to problem solving. <br><br>"
-    +"&nbsp &nbsp I have learned and applied different programming techniques and some projects that I developed are available to free download on the links below.<br><br>"
+    +"&nbsp &nbsp My experiences always involved a great deal of independent research, self-management, requiring initiative, self-motivation and logical approach to problem solving. <br><br>"
+    +"&nbsp &nbsp I have learned and applied different programming techniques and some of the projects that I developed are available to free download on the links below:<br><br>"
+    +"<ul>"
+        +"<li><a href='https://play.google.com/store/apps/details?id=com.trocky2012.ASM_Manager'>https://play.google.com - ASM Manager</a><br></li>"
+        +"<li><a href='https://play.google.com/store/apps/details?id=com.trocky2012.app13'>https://play.google.com - UBM Stareng</a><br></li>"
+        +"<li><a href='https://play.google.com/store/apps/details?id=com.trocky2012.Ola_Task'>https://play.google.com - Ola Task</a><br></li>"
+        +"<li><a href='https://www.starengtech.com/'>https://www.starengtech.com/</a><br><br></li>"
+    +"</ul>"
     
-    +"- <a href='https://play.google.com/store/apps/details?id=com.trocky2012.ASM_Manager'>https://play.google.com - ASM Manager</a><br>"
-    +"- <a href='https://play.google.com/store/apps/details?id=com.trocky2012.app13'>https://play.google.com - UBM Stareng</a><br>"
-    +"- <a href='https://play.google.com/store/apps/details?id=com.trocky2012.Ola_Task'>https://play.google.com - Ola Task</a><br>"
-    +"- <a href='https://www.starengtech.com/'>https://www.starengtech.com/</a><br><br>"
     +"<b>Azure DP900 certified (2022):</b><br><br>"
     +"<a href='./img/azure_dp900.jpeg'><img src=img/azure_dp900.jpeg style='width:30%'></a><br>"
-
-    clearList();
     
+    +"<br><br><b>Education:</b><br>"
+    clearList();
+    addHeaderList("Degree", "School", "Course", "Start", "End");
+    addInList(  
+        "Bachelors",
+        "PUC-RS, Brazil",
+        "Control and Automation engineering",
+        "2010",
+        "2016",
+    );
+    addInList(  
+        "Diploma",
+        "TREBAS, Canada",
+        "Cyber security",
+        "2022",
+        "On going",
+    )
+
 }
+
 function home_experiences(){
     document.getElementById("title").innerHTML = "Experiences"; 
     document.getElementById("text1").innerHTML = 
@@ -60,25 +79,7 @@ function home_experiences(){
     +"- Reponsible for the sales of equipment for industrial construction, buildings and sanitary works, technical visits and commercial process follow-ups.<br><br>"
 
     +"<a href='experiences.html'><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white;>more info...</button></a><br><br>"
-
-    +"<b><br>Education: </b><br>"
-
     clearList();
-    addHeaderList("Degree", "School", "Course", "Start", "End");
-    addInList(  
-        "Bachelors",
-        "PUC-RS, Brazil",
-        "Control and Automation engineering",
-        "2010",
-        "2016",
-    );
-    addInList(  
-        "Diploma",
-        "TREBAS, Canada",
-        "Cyber security",
-        "2022",
-        "On going",
-    );
 }
 function home_projects(){
     document.getElementById("title").innerHTML = "Projects"; 
