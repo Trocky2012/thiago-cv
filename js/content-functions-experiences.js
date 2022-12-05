@@ -9,22 +9,22 @@ function experiences_introduction(){
     "<b>CWI Software</b>, Brazil: Software Analyst / Developer.<br>"
     +"- MARCH 2021 - APRIL 2022<br>"
     +"- Analyst and JAVA back-end developer at CWI Software.<br>"
-    +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_cwi()>more info...</button></p><br><br>"
+    +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_cwi()>more info...</button></p><br>"
 
 
     +"<b>StarEng Technology</b>, Brazil: Developer.<br>"
     +"- JANUARY 2017 - JANUARY 2021 and MAY 2022 - ON GOING<br>"
     +"- Development of cloud microservices, APIs, applications, interaction with relational (AWS) and non-relational database (Firebase - Google) are among some StarEng`s projects.<br>"
-    +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_stareng()>more info...</button></p><br><br>"
+    +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_stareng()>more info...</button></p><br>"
 
     +"<b>GACS (Automation and Control Systems Group)</b>, Brazil: Software developer.<br>"
     +"- JANUARY 2015 - DECEMBER 2016<br>"
     +"- Software developer of the team responsible for the first stage of new automatic pilot project for the STARA tractors.<br>"
-    +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_gacs()>more info...</button></p><br><br>"
+    +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_gacs()>more info...</button></p><br>"
 
     +"<b>Wischral Consultoria</b>, Brazil: Member of sales team.<br>"
     +"- JANUARY 2013 - AUGUST 2014<br>"
-    +"- Reponsible for the sales of equipment for industrial construction, buildings and sanitary works, technical visits and commercial process follow-ups.<br><br>"
+    +"- Reponsible for the sales of equipment for industrial construction, buildings and sanitary works, technical visits and commercial process follow-ups.<br>"
 
 }
 
