@@ -38,9 +38,9 @@ function home_introduction(){
     +"- <a href='https://play.google.com/store/apps/details?id=com.trocky2012.app13'>https://play.google.com - UBM Stareng</a><br>"
     +"- <a href='https://play.google.com/store/apps/details?id=com.trocky2012.Ola_Task'>https://play.google.com - Ola Task</a><br>"
     +"- <a href='https://www.starengtech.com/'>https://www.starengtech.com/</a><br><br>"
-    +"<b>Azure DP900 certified - 2022:</b><br><br>"
-    +"<a href='./img/azure_dp900.jpeg'><img src=img/azure_dp900.jpeg style='width:40%'></a><br>"
-    
+    +"<b>Azure DP900 certified (2022):</b><br><br>"
+    +"<a href='./img/azure_dp900.jpeg'><img src=img/azure_dp900.jpeg style='width:30%'></a><br>"
+
     clearList();
     
 }

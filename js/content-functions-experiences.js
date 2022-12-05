@@ -8,18 +8,18 @@ function experiences_introduction(){
     document.getElementById("text1").innerHTML = 
     "<b>CWI Software</b>, Brazil: Software Analyst / Developer.<br>"
     +"- MARCH 2021 - APRIL 2022<br>"
-    +"- Analyst and JAVA back-end developer at CWI Software.<br>"
+    +"- Analyst and JAVA back-end developer at CWI Software, a national and international market leader company of software development. <br>As a programmer, I joined the team responsible for the PIX (new format of instant payment or money transfer) API development of Banco Votorantim, a brazilian bank and CWI`s partner..."
     +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_cwi()>more info...</button></p><br>"
 
 
     +"<b>StarEng Technology</b>, Brazil: Developer.<br>"
     +"- JANUARY 2017 - JANUARY 2021 and MAY 2022 - ON GOING<br>"
-    +"- Development of cloud microservices, APIs, applications, interaction with relational (AWS) and non-relational database (Firebase - Google) are among some StarEng`s projects.<br>"
+    +"- The VR StarEng system for Unity3D`s creator and programmer of the company which develops digital games, SAAS systems and app (javascript and react-native) for Android and iOS..."
     +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_stareng()>more info...</button></p><br>"
 
     +"<b>GACS (Automation and Control Systems Group)</b>, Brazil: Software developer.<br>"
     +"- JANUARY 2015 - DECEMBER 2016<br>"
-    +"- Software developer of the team responsible for the first stage of new automatic pilot project for the STARA tractors.<br>"
+    +"- Software developer of the team responsible for the first stage of new automatic pilot project for the STARA tractors. Also, member of academic projects, studies and developments associated with control system innovations..."
     +"<p><button style=background-color:#257886;border-radius:16px;border-color:#103d46;color:white; onclick=experiences_gacs()>more info...</button></p><br>"
 
     +"<b>Wischral Consultoria</b>, Brazil: Member of sales team.<br>"
@@ -58,7 +58,7 @@ function experiences_gacs(){
     document.getElementById("text1").innerHTML = 
     "<b>GACS (Automation and Control Systems Group)</b>, Brazil: Software developer.<br>"
     +"- JANUARY 2015 - DECEMBER 2016<br><br>"
-    +"&nbsp &nbsp &nbsp From October 2015 to December 2016: Software developer of the team responsible for the first stage of new automatic pilot project for the STARA tractors. Was built a Kalman Filter to determine the orientation and position of a tractor in the space, only through measurement fusion of a GPS and two inertial sensors, accelerometer and gyroscope. A Cortex M4 was used in this project. This microcontroller was responsible for sensors reading, filter processing and data logs generation for post-processing using I2C protocol.<br>"
+    +"&nbsp &nbsp &nbsp From October 2015 to December 2016: Software developer of the team responsible for the first stage of new automatic pilot project of STARA tractors. For this project, a Kalman Filter Was built to determine the orientation and position of a tractor in the space, only through measurement fusion of a GPS and two inertial sensors, accelerometer and gyroscope. A Cortex M4 was used in this project. This microcontroller was responsible for sensors reading, filter processing and data logs generation for post-processing using I2C protocol.<br>"
     +"&nbsp &nbsp &nbsp From January 2015 to October 2015: Academic projects study and developing associated with control system innovations and dynamic modeling to control analysis and test of a quadcopter VANT. All projects were done using software like Matlab, Octave and Eclipse.<br>"
     +"<br><a href='https://www.pucrs.br/'>https://www.pucrs.br/</a><br>"
     +`<br><img src='https://www.educabras.com/blog/wp-content/uploads/2021/03/logo-pucrs-gd.jpg' alt='pucrs' style='width:20%'>`

@@ -74,8 +74,12 @@ function projects_ubm_stareng(){
     +"Development: 2022<br><br>"
     +"&nbsp &nbsp &nbsp  Maintenance timing management and control system that increases the productivity of industrial electrical machines.<br><br>"
     +"&nbsp &nbsp &nbsp  <b>Development tools:</b> Firebase (Google), React-Native and Expo.<br><br>"
-    +"&nbsp &nbsp &nbsp  <a href='https://play.google.com/store/apps/details?id=com.trocky2012.app13'>https://play.google.com - UBM Stareng</a><br><br>"
+    +"&nbsp &nbsp &nbsp  <a href='https://play.google.com/store/apps/details?id=com.trocky2012.app13'>https://play.google.com - UBM Stareng APP</a><br><br>"
     
     +`<br>&nbsp &nbsp &nbsp <img src='img/projects/ubm_stareng.jpg' alt='UBM Stareng' style='width:50%'>`
+    
+    +"<br><br><br>&nbsp &nbsp &nbsp  <a href='https://www.starengtech.com/product-page/ubm-stareng'>Product/Hardware - UBM Stareng</a><br><br>"
+    
+    +`<br>&nbsp &nbsp &nbsp <img src='img/projects/ubm_stareng2.jpg' alt='UBM Stareng2' style='width:20%'>`
 
 }
