@@ -36,7 +36,7 @@
 function projects_introduction(){
     document.getElementById("title").innerHTML = ""; 
     document.getElementById("text1").innerHTML = 
-    "*Login: <b>test@test.com</b> / Password: <b>00112233</b><br><br>"
+    "Login: <b>test@test.com</b> / Password: <b>00112233</b><br><br>"
     +"<iframe class='frame'"
         +"src='https://www.starengtech.com/apis'"
         +"frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen>"
