@@ -5,9 +5,51 @@
                 p{color:#333;}
                 button {background-color:#333; border-radius: 12px; color: white; padding: 10px 25px; text-align: center; display: inline-block; font-size: 24px;}
         </style>
-        <body>
+        <body onload=postApi()>
                 <h1>Authentication completed</h1>
                 <p style="font-size: small;" id="url"><script>document.getElementById("url").innerHTML = window.location.href;</script></p>
                 <br><p><a href="unitydl://ephastest"><button type="button" onclick=" window.close();">Return to EPHAS App</button></a></p>
+                <script>
+                        function postApi() { 
+                                const longUrlTest = window.location.href;
+                                //const longUrlTest = "https://trocky2012.github.io/thiago-cv/deep-link-test.html?state=349479b7-9014-4df0-ae8b-b680861e7b9c&code=eyJraWQiOiJjcGltY29yZV8wOTI1MjAxNSIsInZlciI6IjEuMCIsInppcCI6IkRlZmxhdGUiLCJzZXIiOiIxLjAifQ..8XVWgcLGBG-XAk8k.UpxQC7RZoiKR5eMmOuxyeAG3YnSCs3myxPevvnF6AGCfsta_DqZCBbS13qO8780Rd2zImZk5wHVvDrjT8Y6UD9sDp9p-nKd1quQOrt09oYI1orRG2nD1LEAeuGcPCebj9-w9bdPkWYFkLfxzJJGyBvrnk2KEZD4AFt0uC9Tz1RyYZdgXv_xHIRAqw_9xwSq7zzSKZ3VtUaG9E-2qRyqgyFoNYss_pJKa7uaE6RMcIMqjQ_J2CkP1oJLl36Vt9DE3m_7UgWJc0L6lelTKwszfz9ad7LpI6-qDueDZvKcEgg9S_Rd0MdVfT1O1YVp_4D8XaJkQk6HXnJgvzFxSi_iink2615d-IJY7nro9w4qFQ4CVlOTqAej9k5_QZNz95I3RILZMeZHXOkSr7qH-zkltoXWS6nBPaTu3nPY57lW2UNGiBdzyWCNG2fa8wt2chJcW20wNaS0KXNbNyZN7rRwMdX_-sNVYfRVNIWX_3KxcuQoiQ8OOfg8FClcw8wd_f_4G2vEYYnXGqMPZUdUBUZDlFosls0fj1rKXzlZPqQj_M8qMfG2rrb576-q8Cw6fJTZYL0kQGcvUyg.XVVw8ScsEo4IWIXDJ7a51g";
+                                if(!longUrlTest.includes("state=") && !longUrlTest.includes("code=")){
+                                        return;
+                                }
+                                const redirectUrl = "https://trocky2012.github.io/thiago-cv/deep-link-test.html";
+                                const myArray = longUrlTest.split("&code=");
+                                //State:
+                                const state = myArray[0].trim().replace(redirectUrl+'?state=','');
+                                //Code:
+                                // const code = myArray[1];
+                                const codeA = myArray[1].trim().substring(0,253);
+                                //var codeB = myArray[1].trim().substring(254,myArray[1].length+1);
+                                const codeB = myArray[1].trim().substring(253,507);
+                                if( !state.length > 1 && !codeA.length > 1) {
+                                        return;
+                                }
+                                //alert("Starting request to API: \nState: "+state + "\n \n" + codeA + "\n \n" + codeB);
+                                try{
+                                fetch("https://timing-control.herokuapp.com/tkuser", {
+                                //fetch("http://localhost:8080/tkuser", {
+                                        method: "POST",
+                                        body: JSON.stringify({
+                                        "projectId":60,
+                                        "fName": codeA,
+                                        "lName": codeB,
+                                        "email": state,
+                                        "password": state
+                                        }),
+                                        headers: {
+                                        "Content-type": "application/json; charset=UTF-8"
+                                        }
+                                })
+                                .then(response => response.json());
+                                }catch(err){
+                                        alert("Post request error. -"+err);
+                                }
+                                
+                            }
+                </script>
         </body>
 </html>
