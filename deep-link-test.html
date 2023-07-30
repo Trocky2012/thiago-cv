@@ -5,10 +5,11 @@
                 p{color:#333;}
                 button {background-color:#333; border-radius: 12px; color: white; padding: 10px 25px; text-align: center; display: inline-block; font-size: 24px;}
         </style>
-        <body onload=postApi()>
+        <!--onload=postApi()-->
+        <body>
                 <h1>Authentication completed</h1>
                 <p style="font-size: small;" id="url"><script>document.getElementById("url").innerHTML = window.location.href;</script></p>
-                <br><p><a href="unitydl://ephastest"><button type="button" onclick=" window.close();">Return to EPHAS App</button></a></p>
+                <br><p><a href="unitydl://ephastest"><button type="button" onclick=" window.close();">Close this page</button></a></p>
                 <script>
                         function postApi() { 
                                 const redirectUrl = "https://trocky2012.github.io/thiago-cv/deep-link-test.html";
